@@ -10,7 +10,7 @@
   archinstall
   
 # Extra packages:
-  sudo pacman -S cups gufw ntfs-3g nvidia-settings print-manager
+  sudo pacman -S cups gnome-disk-utility ntfs-3g nvidia-settings print-manager ufw
   
 # Updating:
   sudo pacman -Syu
