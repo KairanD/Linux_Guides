@@ -34,6 +34,9 @@
 # Installig AUR packages:
   yay -S epson-inkjet-printer-escpr gddccontrol
   
+# Updating AUR packages:
+  yay -Syu
+  
 # Disable dedicated video card (laptop GT 740M):
   sudo pacman -S acpi_call
   sudo modprobe acpi_call
