@@ -45,7 +45,7 @@
     #Load 'acpi_call.ko' at boot.
 	  acpi_call
   sudo nano /etc/tmpfiles.d/acpi_call.conf
-    w /proc/acpi/call - - - - \\_SB.PCI0.PEG0.PEGP._OFF (trocar pelo que funcionou)
+    w /proc/acpi/call - - - - \\_SB.PCI0.PEG0.PEGP._OFF (variable)
     
 # Other:
   Anaconda-Navigator
