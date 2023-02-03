@@ -10,7 +10,7 @@
   archinstall
   
 # Extra packages:
-  sudo pacman -S cups gnome-disk-utility kio-gdrive ntfs-3g nvidia-settings ufw
+  sudo pacman -S cups gnome-disk-utility gwenview kio-gdrive ntfs-3g okular nvidia-settings ufw
   
 # Updating:
   sudo pacman -Syu
