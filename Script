@@ -21,8 +21,6 @@
   sudo systemctl start bluetooth.service
   sudo systemctl enable cups.service
   sudo systemctl start cups.service
-  sudo systemctl enable avahi-daemon.service
-  sudo systemctl start avahi-daemon.service
   sudo systemctl enable ufw.service
   sudo systemctl start ufw.service
 
