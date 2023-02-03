@@ -1,0 +1,24 @@
+# Network configuration:
+  iwctl
+  device list
+  station wlan0 scan
+  station wlan0 get-networks
+  station wlan0 connect <name>
+  exit
+ 
+# Starting archinstall script:
+  archinstall
+  
+# Extra packages:
+  cups gufw ntfs-3g nvidia-settings print-manager
+  
+# Updating:
+  sudo pacman -Syu
+  flatpak update
+  
+# Enabling services:
+  sudo systemctl enable cups.service
+  sudo systemctl start cups.service
+  sudo systemctl enable ufw.service
+  sudo systemctl start ufw.service
+
