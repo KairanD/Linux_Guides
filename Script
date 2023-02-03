@@ -10,7 +10,7 @@
   archinstall
   
 # Extra packages:
-  cups gufw ntfs-3g nvidia-settings print-manager
+  sudo pacman -S cups gufw ntfs-3g nvidia-settings print-manager
   
 # Updating:
   sudo pacman -Syu
@@ -22,3 +22,28 @@
   sudo systemctl enable ufw.service
   sudo systemctl start ufw.service
 
+# Installing basic Flatpak apps:
+  flatpak install flathub com.usebottles.bottles io.github.hakandundar34coding.system-monitoring-center com.discordapp.Discord org.mozilla.firefox com.github.tchx84.Flatseal org.gimp.GIMP org.libreoffice.LibreOffice com.microsoft.Teams com.github.jeromerobert.pdfarranger org.gnome.Rhythmbox3 com.skype.Client org.videolan.VLC
+
+# Installing all Flatpak apps:
+  flatpak install flathub com.usebottles.bottles org.gnome.Boxes io.github.hakandundar34coding.system-monitoring-center com.discordapp.Discord org.mozilla.firefox com.github.tchx84.Flatseal org.gimp.GIMP io.github.shiftey.Desktop org.libreoffice.LibreOffice com.microsoft.Teams com.mojang.Minecraft com.obsproject.Studio com.github.jeromerobert.pdfarranger org.gnome.Rhythmbox3 com.skype.Client org.soundconverter.SoundConverter com.valvesoftware.Steam com.unity.UnityHub com.github.unrud.VideoDownloader org.videolan.VLC
+  
+# Installing Yay (AUR Helper):
+  pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+  
+# Installig AUR packages:
+  yay -S epson-inkjet-printer-escpr gddccontrol
+  
+# Disable dedicated video card (laptop GT 740M):
+  sudo pacman -S acpi_call
+  sudo modprobe acpi_call
+  sudo /usr/share/acpi_call/examples/turn_off_gpu.sh
+  sudo nano /etc/modules-load.d/acpi_call.conf
+    #Load 'acpi_call.ko' at boot.
+	  acpi_call
+  sudo nano /etc/tmpfiles.d/acpi_call.conf
+    w /proc/acpi/call - - - - \\_SB.PCI0.PEG0.PEGP._OFF (trocar pelo que funcionou)
+    
+# Other:
+  Anaconda-Navigator
+  Fonts
