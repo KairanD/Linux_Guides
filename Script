@@ -10,7 +10,7 @@
   archinstall
   
 # Extra packages:
-  sudo pacman -S cups gnome-disk-utility kio-gdrive ntfs-3g nvidia-settings print-manager system-config-printer ufw
+  sudo pacman -S cups gnome-disk-utility kio-gdrive ntfs-3g nvidia-settings ufw
   
 # Updating:
   sudo pacman -Syu
