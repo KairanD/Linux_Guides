@@ -10,7 +10,7 @@
   archinstall
   
 # Extra packages:
-  sudo pacman -S cups gnome-disk-utility kio-gdrive ntfs-3g nvidia-settings print-manager ufw
+  sudo pacman -S cups gnome-disk-utility kio-gdrive ntfs-3g nvidia-settings print-manager system-config-printer ufw
   
 # Updating:
   sudo pacman -Syu
@@ -21,6 +21,8 @@
   sudo systemctl start bluetooth.service
   sudo systemctl enable cups.service
   sudo systemctl start cups.service
+  sudo systemctl enable avahi-daemon.service
+  sudo systemctl start avahi-daemon.service
   sudo systemctl enable ufw.service
   sudo systemctl start ufw.service
 
