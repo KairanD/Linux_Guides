@@ -25,10 +25,10 @@
   sudo systemctl start ufw.service
 
 # Installing basic Flatpak apps:
-  flatpak install flathub com.usebottles.bottles io.github.hakandundar34coding.system-monitoring-center org.gnome.SimpleScan com.discordapp.Discord org.mozilla.firefox com.github.tchx84.Flatseal org.gimp.GIMP org.libreoffice.LibreOffice com.microsoft.Teams com.github.jeromerobert.pdfarranger org.gnome.Rhythmbox3 com.skype.Client org.videolan.VLC
+  flatpak install flathub com.usebottles.bottles io.github.hakandundar34coding.system-monitoring-center org.gnome.SimpleScan com.discordapp.Discord org.mozilla.firefox com.github.tchx84.Flatseal org.gimp.GIMP org.kde.kcalc org.libreoffice.LibreOffice com.microsoft.Teams com.github.jeromerobert.pdfarranger org.gnome.Rhythmbox3 com.skype.Client org.videolan.VLC
 
 # Installing all Flatpak apps:
-  flatpak install flathub com.usebottles.bottles org.gnome.Boxes io.github.hakandundar34coding.system-monitoring-center org.gnome.SimpleScan com.discordapp.Discord org.mozilla.firefox com.github.tchx84.Flatseal org.gimp.GIMP io.github.shiftey.Desktop org.libreoffice.LibreOffice com.microsoft.Teams com.mojang.Minecraft com.obsproject.Studio com.github.jeromerobert.pdfarranger org.gnome.Rhythmbox3 com.skype.Client org.soundconverter.SoundConverter com.valvesoftware.Steam com.unity.UnityHub com.github.unrud.VideoDownloader org.videolan.VLC
+  flatpak install flathub com.usebottles.bottles org.gnome.Boxes io.github.hakandundar34coding.system-monitoring-center org.gnome.SimpleScan com.discordapp.Discord org.mozilla.firefox com.github.tchx84.Flatseal org.gimp.GIMP io.github.shiftey.Desktop org.kde.kcalc org.libreoffice.LibreOffice com.microsoft.Teams com.mojang.Minecraft com.obsproject.Studio com.github.jeromerobert.pdfarranger org.gnome.Rhythmbox3 com.skype.Client org.soundconverter.SoundConverter com.valvesoftware.Steam com.unity.UnityHub com.github.unrud.VideoDownloader org.videolan.VLC
   
 # Installing Yay (AUR Helper):
   sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
