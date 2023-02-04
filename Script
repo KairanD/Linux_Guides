@@ -10,7 +10,7 @@
   archinstall
   
 # Extra packages:
-  sudo pacman -S cups foomatic-db-gutenprint-ppds gnome-disk-utility gutenprint gwenview kio-gdrive ntfs-3g nvidia-settings okular print-manager spectacle ufw
+  sudo pacman -S cups flatpak foomatic-db-gutenprint-ppds gnome-disk-utility gutenprint gwenview kio-gdrive ntfs-3g nvidia-settings okular print-manager spectacle ufw
   
 # Updating:
   sudo pacman -Syu
