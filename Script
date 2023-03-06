@@ -17,12 +17,14 @@
   flatpak update
   
 # Enabling services:
-  sudo systemctl enable bluetooth.service
-  sudo systemctl start bluetooth.service
-  sudo systemctl enable cups.service
-  sudo systemctl start cups.service
   sudo systemctl enable ufw.service
   sudo systemctl start ufw.service
+  sudo systemctl enable cups.service
+  sudo systemctl start cups.service
+  sudo systemctl enable bluetooth.service
+  sudo systemctl start bluetooth.service
+  sudo systemctl enable avahi-daemon.service
+  sudo systemctl start avahi-daemon.service
 
 # Installing basic Flatpak apps:
   flatpak install flathub com.usebottles.bottles io.github.hakandundar34coding.system-monitoring-center org.gnome.SimpleScan com.discordapp.Discord org.mozilla.firefox com.github.tchx84.Flatseal org.gimp.GIMP org.kde.kcalc org.libreoffice.LibreOffice com.microsoft.Teams com.github.jeromerobert.pdfarranger org.gnome.Rhythmbox3 com.skype.Client org.videolan.VLC
