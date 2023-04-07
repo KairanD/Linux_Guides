@@ -10,7 +10,7 @@
   archinstall
   
 # Extra packages:
-  sudo pacman -S cups firefox flatpak gnome-disk-utility gwenview kio-gdrive ntfs-3g nvidia-settings okular p7zip print-manager spectacle ufw unrar
+  sudo pacman -S cups firefox flatpak gnome-disk-utility gwenview kio-gdrive ntfs-3g nvidia-settings okular p7zip print-manager spectacle system-config-printer ufw unrar
   
 # Updating:
   sudo pacman -Syu
