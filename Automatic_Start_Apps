@@ -1,0 +1,11 @@
+Agente de chaves SSH
+/usr/bin/gnome-keyring-daemon --start --components=ssh
+Chaveiro do GNOME: Agente SSH
+
+NVIDIA X Server Settings
+sh -c '/usr/bin/nvidia-settings --load-config-only'
+Configure NVIDIA X Server Settings
+
+Psensor
+psensor
+Psensor is a graphical temperature monitor for Linux

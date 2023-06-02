@@ -1,0 +1,28 @@
+Instalação de aplicativos básicos:
+
+sudo apt install gimp gnome-shell-pomodoro gufw pdfarranger printer-driver-escpr psensor ttf-mscorefonts-installer
+snap install skype teams-for-linux
+
+
+Instalação de aplicativos complementares:
+
+sudo apt install gddccontrol gnome-boxes obs-studio soundconverter steam
+snap install discord mc-installer
+
+
+Habilitar Flatpak:
+
+sudo apt install flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+
+Instalar Flatpaks:
+
+flatpak install flathub com.usebottles.bottles
+flatpak install flathub io.github.shiftey.Desktop
+flatpak install flathub com.unity.UnityHub
+
+
+Instalar externo:
+
+Anaconda Navigator

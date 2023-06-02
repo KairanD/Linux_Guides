@@ -1,0 +1,53 @@
+﻿Habilitar Flathub:
+
+sudo apt install flatpak
+sudo apt install gnome-software-plugin-flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+
+Instalar driver Nvidia (atual):
+
+sudo apt install nvidia-driver firmware-misc-nonfree
+
+
+Instalar pacotes básicos:
+
+GDDC Control: sudo apt install gddccontrol
+GUFW: sudo apt install gufw
+Microsoft Fonts: sudo apt install ttf-mscorefonts-installer
+
+
+Instalar pacotes Flatpak:
+
+Arduino IDE: flatpak install flathub cc.arduino.arduinoide
+Bottles: flatpak install flathub com.usebottles.bottles
+Boxes: flatpak install flathub org.gnome.Boxes
+Discord: flatpak install flathub com.discordapp.Discord
+Extension Manager: flatpak install flathub com.mattjakeman.ExtensionManager
+Flatseal: flatpak install flathub com.github.tchx84.Flatseal
+GIMP: flatpak install flathub org.gimp.GIMP
+GitHub Desktop: flatpak install flathub io.github.shiftey.Desktop
+Minecraft: flatpak install flathub com.mojang.Minecraft
+Minion: flatpak install flathub gg.minion.Minion
+OBS Studio: flatpak install flathub com.obsproject.Studio
+PDF Arranger: flatpak install flathub com.github.jeromerobert.pdfarranger
+Skype: flatpak install flathub com.skype.Client
+Solanum: flatpak install flathub org.gnome.Solanum
+SoundConverter: flatpak install flathub org.soundconverter.SoundConverter
+Steam: flatpak install flathub com.valvesoftware.Steam
+Teams: flatpak install flathub com.github.IsmaelMartinez.teams_for_linux
+TeamSpeak: flatpak install flathub com.teamspeak.TeamSpeak
+Unity Hub: flatpak install flathub com.unity.UnityHub
+Visual Studio Code: flatpak install flathub com.visualstudio.code
+VLC: flatpak install flathub org.videolan.VLC
+
+
+Instalar externo:
+
+Anaconda Navigator
+
+
+Extensões GNOME:
+
+Dash to Dock
+AppIndicator and KstatusNotifierItemSupport
