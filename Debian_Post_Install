@@ -23,10 +23,12 @@ Arduino IDE: flatpak install flathub cc.arduino.arduinoide
 Bottles: flatpak install flathub com.usebottles.bottles
 Boxes: flatpak install flathub org.gnome.Boxes
 Discord: flatpak install flathub com.discordapp.Discord
+Draw.io: flatpak install flathub com.jgraph.drawio.desktop
 Extension Manager: flatpak install flathub com.mattjakeman.ExtensionManager
 Flatseal: flatpak install flathub com.github.tchx84.Flatseal
 GIMP: flatpak install flathub org.gimp.GIMP
 GitHub Desktop: flatpak install flathub io.github.shiftey.Desktop
+Kdenlive: flatpak install flathub org.kde.kdenlive
 Minecraft: flatpak install flathub com.mojang.Minecraft
 Minion: flatpak install flathub gg.minion.Minion
 OBS Studio: flatpak install flathub com.obsproject.Studio
@@ -38,8 +40,10 @@ Steam: flatpak install flathub com.valvesoftware.Steam
 Teams: flatpak install flathub com.github.IsmaelMartinez.teams_for_linux
 TeamSpeak: flatpak install flathub com.teamspeak.TeamSpeak
 Unity Hub: flatpak install flathub com.unity.UnityHub
+Video Downloader: flatpak install flathub com.github.unrud.VideoDownloader
 Visual Studio Code: flatpak install flathub com.visualstudio.code
 VLC: flatpak install flathub org.videolan.VLC
+Xournal++: flatpak install flathub com.github.xournalpp.xournalpp
 
 
 Instalar externo:
