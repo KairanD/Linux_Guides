@@ -28,7 +28,9 @@ Extension Manager: flatpak install flathub com.mattjakeman.ExtensionManager
 Flatseal: flatpak install flathub com.github.tchx84.Flatseal
 GIMP: flatpak install flathub org.gimp.GIMP
 GitHub Desktop: flatpak install flathub io.github.shiftey.Desktop
+Google Earth: flatpak install flathub com.google.EarthPro
 Kdenlive: flatpak install flathub org.kde.kdenlive
+LibreCAD: flatpak install flathub org.librecad.librecad
 Minecraft: flatpak install flathub com.mojang.Minecraft
 Minion: flatpak install flathub gg.minion.Minion
 OBS Studio: flatpak install flathub com.obsproject.Studio
@@ -55,3 +57,10 @@ Extensões GNOME:
 
 Dash to Dock
 AppIndicator and KstatusNotifierItemSupport
+
+
+ZRAM (swap):
+
+sudo apt install zram-tools
+echo -e "ALGO=zstd\nPERCENT=100" | sudo tee -a /etc/default/zramswap
+sudo service zramswap reload
