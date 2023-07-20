@@ -31,8 +31,10 @@ GitHub Desktop: flatpak install flathub io.github.shiftey.Desktop
 Google Earth: flatpak install flathub com.google.EarthPro
 Kdenlive: flatpak install flathub org.kde.kdenlive
 LibreCAD: flatpak install flathub org.librecad.librecad
+LosslessCut: flatpak install flathub no.mifi.losslesscut
 Minecraft: flatpak install flathub com.mojang.Minecraft
 Minion: flatpak install flathub gg.minion.Minion
+Mission Center: flatpak install flathub io.missioncenter.MissionCenter
 OBS Studio: flatpak install flathub com.obsproject.Studio
 PDF Arranger: flatpak install flathub com.github.jeromerobert.pdfarranger
 Skype: flatpak install flathub com.skype.Client
