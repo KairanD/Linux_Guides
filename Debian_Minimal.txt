@@ -1,0 +1,39 @@
+Pós-instalação:
+
+sudo apt update
+sudo apt upgrade
+sudo apt install gnome-core flatpak gnome-software-plugin-flatpak
+
+Habilitar Flathub:
+
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+Pacotes básicos:
+
+sudo apt install gufw
+sudo apt install ttf-mscorefonts-installer
+
+Extensões GNOME:
+
+Alphabetical App Grid
+AppIndicator and KstatusNotifierItemSupport
+
+Driver Nvidia:
+
+sudo apt install nvidia-driver firmware-misc-nonfree
+
+ZRAM (swap):
+
+sudo apt install zram-tools
+echo -e "ALGO=zstd\nPERCENT=100" | sudo tee -a /etc/default/zramswap
+sudo service zramswap reload
+
+Flatpaks:
+
+Flatseal: flatpak install flathub com.github.tchx84.Flatseal
+GIMP: flatpak install flathub org.gimp.GIMP
+LibreOffice: flatpak install flathub org.libreoffice.LibreOffice
+PDF Arranger: flatpak install flathub com.github.jeromerobert.pdfarranger
+flatpak install flathub org.gnome.Rhythmbox3
+System Monitoring Center: flatpak install flathub io.github.hakandundar34coding.system-monitoring-center
+Teams: flatpak install flathub com.github.IsmaelMartinez.teams_for_linux
