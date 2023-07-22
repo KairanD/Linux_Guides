@@ -2,15 +2,11 @@ Pós-instalação:
 
 sudo apt update
 sudo apt upgrade
-sudo apt install gnome-core flatpak gnome-software-plugin-flatpak
+sudo apt install gnome-core flatpak gnome-software-plugin-flatpak gufw gnome-tweaks ttf-mscorefonts-installer
 
 Habilitar Flathub:
 
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-
-Pacotes básicos:
-
-sudo apt install gufw gnome-tweaks ttf-mscorefonts-installer
 
 Driver Nvidia:
 
@@ -28,6 +24,6 @@ Flatseal: flatpak install flathub com.github.tchx84.Flatseal
 GIMP: flatpak install flathub org.gimp.GIMP
 LibreOffice: flatpak install flathub org.libreoffice.LibreOffice
 PDF Arranger: flatpak install flathub com.github.jeromerobert.pdfarranger
-flatpak install flathub org.gnome.Rhythmbox3
+Rhythmbox: flatpak install flathub org.gnome.Rhythmbox3
 System Monitoring Center: flatpak install flathub io.github.hakandundar34coding.system-monitoring-center
 Teams: flatpak install flathub com.github.IsmaelMartinez.teams_for_linux
