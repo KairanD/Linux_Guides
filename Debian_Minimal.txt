@@ -10,13 +10,7 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 
 Pacotes básicos:
 
-sudo apt install gufw
-sudo apt install ttf-mscorefonts-installer
-
-Extensões GNOME:
-
-Alphabetical App Grid
-AppIndicator and KstatusNotifierItemSupport
+sudo apt install gufw gnome-tweaks ttf-mscorefonts-installer
 
 Driver Nvidia:
 
