@@ -38,6 +38,7 @@ Minion: flatpak install flathub gg.minion.Minion
 Mission Center: flatpak install flathub io.missioncenter.MissionCenter
 OBS Studio: flatpak install flathub com.obsproject.Studio
 PDF Arranger: flatpak install flathub com.github.jeromerobert.pdfarranger
+Pick: flatpak install flathub org.kryogenix.Pick
 Rhythmbox: flatpak install flathub org.gnome.Rhythmbox3
 Skype: flatpak install flathub com.skype.Client
 Solanum: flatpak install flathub org.gnome.Solanum
