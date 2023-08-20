@@ -22,6 +22,7 @@ Instalar pacotes Flatpak:
 Arduino IDE: flatpak install flathub cc.arduino.arduinoide
 Bottles: flatpak install flathub com.usebottles.bottles
 Boxes: flatpak install flathub org.gnome.Boxes
+Digitalizador de documentos: flatpak install flathub org.gnome.SimpleScan
 Discord: flatpak install flathub com.discordapp.Discord
 Draw.io: flatpak install flathub com.jgraph.drawio.desktop
 Extension Manager: flatpak install flathub com.mattjakeman.ExtensionManager
@@ -39,6 +40,7 @@ Mission Center: flatpak install flathub io.missioncenter.MissionCenter
 OBS Studio: flatpak install flathub com.obsproject.Studio
 PDF Arranger: flatpak install flathub com.github.jeromerobert.pdfarranger
 Pick: flatpak install flathub org.kryogenix.Pick
+Popsicle: flatpak install flathub com.system76.Popsicle
 Rhythmbox: flatpak install flathub org.gnome.Rhythmbox3
 Skype: flatpak install flathub com.skype.Client
 Solanum: flatpak install flathub org.gnome.Solanum

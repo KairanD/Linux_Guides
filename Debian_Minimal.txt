@@ -4,6 +4,10 @@ sudo apt update
 sudo apt upgrade
 sudo apt install gnome-core flatpak gnome-software-plugin-flatpak gufw gnome-tweaks ttf-mscorefonts-installer
 
+Desabilitar hotplug (comentar as duas linhas referentes à conexão usada anteriormente):
+
+sudo nano /etc/network/interfaces
+
 Habilitar Flathub:
 
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
