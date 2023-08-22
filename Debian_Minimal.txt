@@ -12,6 +12,16 @@ Habilitar Flathub:
 
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
+Flatpaks:
+
+Flatseal: flatpak install flathub com.github.tchx84.Flatseal
+GIMP: flatpak install flathub org.gimp.GIMP
+LibreOffice: flatpak install flathub org.libreoffice.LibreOffice
+PDF Arranger: flatpak install flathub com.github.jeromerobert.pdfarranger
+Rhythmbox: flatpak install flathub org.gnome.Rhythmbox3
+System Monitoring Center: flatpak install flathub io.github.hakandundar34coding.system-monitoring-center
+Teams: flatpak install flathub com.github.IsmaelMartinez.teams_for_linux
+
 Driver Nvidia:
 
 sudo apt install nvidia-driver firmware-misc-nonfree
@@ -22,12 +32,6 @@ sudo apt install zram-tools
 echo -e "ALGO=zstd\nPERCENT=100" | sudo tee -a /etc/default/zramswap
 sudo service zramswap reload
 
-Flatpaks:
+Impressora:
 
-Flatseal: flatpak install flathub com.github.tchx84.Flatseal
-GIMP: flatpak install flathub org.gimp.GIMP
-LibreOffice: flatpak install flathub org.libreoffice.LibreOffice
-PDF Arranger: flatpak install flathub com.github.jeromerobert.pdfarranger
-Rhythmbox: flatpak install flathub org.gnome.Rhythmbox3
-System Monitoring Center: flatpak install flathub io.github.hakandundar34coding.system-monitoring-center
-Teams: flatpak install flathub com.github.IsmaelMartinez.teams_for_linux
+sudo apt install cups printer-driver-escpr
