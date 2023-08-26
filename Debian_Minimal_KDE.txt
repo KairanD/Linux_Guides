@@ -1,0 +1,12 @@
+Pós-instalação (KDE):
+
+sudo apt update
+sudo apt upgrade
+sudo apt install kde-plasma-desktop kio-gdrive
+
+Desabilitar hotplug (comentar as duas linhas referentes à conexão usada anteriormente):
+
+sudo nano /etc/network/interfaces
+
+Flatpaks:
+Firefox:

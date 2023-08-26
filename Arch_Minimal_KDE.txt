@@ -1,0 +1,28 @@
+# Install:
+
+iwctl
+device list
+station <name> connect <name>
+exit
+archinstall
+
+
+# Extra packages:
+
+firefox flatpak gwenview kio-gdrive okular spectacle ufw
+
+
+# Enabling services:
+  sudo systemctl enable ufw.service
+  sudo systemctl start ufw.service
+  sudo systemctl enable bluetooth.service
+  sudo systemctl start bluetooth.service
+
+
+# Flatpaks:
+
+Flatseal: flatpak install flathub com.github.tchx84.Flatseal
+GIMP: flatpak install flathub org.gimp.GIMP
+LibreOffice: flatpak install flathub org.libreoffice.LibreOffice
+Rhythmbox: flatpak install flathub org.gnome.Rhythmbox3
+Teams: flatpak install flathub com.github.IsmaelMartinez.teams_for_linux

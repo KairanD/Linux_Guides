@@ -1,4 +1,4 @@
-Pós-instalação:
+Pós-instalação (GNOME):
 
 sudo apt update
 sudo apt upgrade
