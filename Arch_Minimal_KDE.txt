@@ -1,15 +1,13 @@
 # Install:
-
-iwctl
-device list
-station <name> connect <name>
-exit
-archinstall
+  iwctl
+  device list
+  station <name> connect <name>
+  exit
+  archinstall
 
 
 # Extra packages:
-
-firefox flatpak gwenview kio-gdrive okular spectacle ufw
+  firefox flatpak gwenview kio-gdrive okular spectacle ufw
 
 
 # Enabling services:
@@ -19,10 +17,22 @@ firefox flatpak gwenview kio-gdrive okular spectacle ufw
   sudo systemctl start bluetooth.service
 
 
-# Flatpaks:
+# Flatpaks (essentials):
+  Flatseal: flatpak install flathub com.github.tchx84.Flatseal
+  GIMP: flatpak install flathub org.gimp.GIMP
+  KCalc: flatpak install flathub org.kde.kcalc
+  LibreOffice: flatpak install flathub org.libreoffice.LibreOffice
+  PDF Arranger: flatpak install flathub com.github.jeromerobert.pdfarranger
+  Rhythmbox: flatpak install flathub org.gnome.Rhythmbox3
+  Teams: flatpak install flathub com.github.IsmaelMartinez.teams_for_linux
+  VLC: flatpak install flathub org.videolan.VLC
 
-Flatseal: flatpak install flathub com.github.tchx84.Flatseal
-GIMP: flatpak install flathub org.gimp.GIMP
-LibreOffice: flatpak install flathub org.libreoffice.LibreOffice
-Rhythmbox: flatpak install flathub org.gnome.Rhythmbox3
-Teams: flatpak install flathub com.github.IsmaelMartinez.teams_for_linux
+
+# Printer:
+  sudo pacman -S cups gutenprint print-manager skanlite
+
+
+# Steam joystick (Remote Play):
+  Copy all the rule files to /etc/udev/rules.d
+  Create another file: /etc/modules-load.d/uinput.conf
+  Put uinput into that file
