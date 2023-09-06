@@ -1,0 +1,74 @@
+Pós-instalação (GNOME):
+    sudo apt update
+    sudo apt upgrade
+    sudo apt install gnome-core --no-install-recommends
+    sudo apt install flatpak gnome-software-plugin-flatpak gufw gnome-tweaks libproxy1-plugin-networkmanager low-memory-monitor network-manager-gnome ttf-mscorefonts-installer
+
+
+Desabilitar hotplug (comentar as duas linhas referentes à conexão usada anteriormente):
+    sudo nano /etc/network/interfaces
+
+
+Habilitar Flathub:
+    flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+
+Flatpaks:
+    Firefox: flatpak install flathub org.mozilla.firefox
+    Flatseal: flatpak install flathub com.github.tchx84.Flatseal
+    GIMP: flatpak install flathub org.gimp.GIMP
+    LibreOffice: flatpak install flathub org.libreoffice.LibreOffice
+    PDF Arranger: flatpak install flathub com.github.jeromerobert.pdfarranger
+    Rhythmbox: flatpak install flathub org.gnome.Rhythmbox3
+    System Monitoring Center: flatpak install flathub io.github.hakandundar34coding.system-monitoring-center
+    Teams: flatpak install flathub com.github.IsmaelMartinez.teams_for_linux
+
+
+Outros Flatpaks:
+    Arduino IDE: flatpak install flathub cc.arduino.arduinoide
+    Bottles: flatpak install flathub com.usebottles.bottles
+    Boxes: flatpak install flathub org.gnome.Boxes
+    Digitalizador de documentos: flatpak install flathub org.gnome.SimpleScan
+    Discord: flatpak install flathub com.discordapp.Discord
+    Draw.io: flatpak install flathub com.jgraph.drawio.desktop
+    Extension Manager: flatpak install flathub com.mattjakeman.ExtensionManager
+    GitHub Desktop: flatpak install flathub io.github.shiftey.Desktop
+    Google Earth: flatpak install flathub com.google.EarthPro
+    Kdenlive: flatpak install flathub org.kde.kdenlive
+    LibreCAD: flatpak install flathub org.librecad.librecad
+    LosslessCut: flatpak install flathub no.mifi.losslesscut
+    Minecraft: flatpak install flathub com.mojang.Minecraft
+    Minion: flatpak install flathub gg.minion.Minion
+    Mission Center: flatpak install flathub io.missioncenter.MissionCenter
+    OBS Studio: flatpak install flathub com.obsproject.Studio
+    Pick: flatpak install flathub org.kryogenix.Pick
+    Popsicle: flatpak install flathub com.system76.Popsicle
+    Skype: flatpak install flathub com.skype.Client
+    Solanum: flatpak install flathub org.gnome.Solanum
+    SoundConverter: flatpak install flathub org.soundconverter.SoundConverter
+    Steam: flatpak install flathub com.valvesoftware.Steam
+    TeamSpeak: flatpak install flathub com.teamspeak.TeamSpeak
+    Unity Hub: flatpak install flathub com.unity.UnityHub
+    Video Downloader: flatpak install flathub com.github.unrud.VideoDownloader
+    Visual Studio Code: flatpak install flathub com.visualstudio.code
+    VLC: flatpak install flathub org.videolan.VLC
+    Xournal++: flatpak install flathub com.github.xournalpp.xournalpp
+
+
+Driver Nvidia:
+    sudo apt install nvidia-driver firmware-misc-nonfree
+
+
+Impressora:
+    sudo apt install cups printer-driver-escpr
+
+
+ZRAM (swap):
+    sudo apt install zram-tools
+    echo -e "ALGO=zstd\nPERCENT=100" | sudo tee -a /etc/default/zramswap
+    sudo service zramswap reload
+
+
+Extensões GNOME:
+    AppIndicator and KstatusNotifierItemSupport
+    Dash to Dock
