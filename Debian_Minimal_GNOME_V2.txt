@@ -12,10 +12,10 @@ Habilitar Flathub:
     flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
     
 Habilitar swap:
-    dd if=/dev/zero of=/swap bs=1024 count=1048576
-    chmod 600 /swap
-    mkswap /swap
-    swapon /swap
+    sudo dd if=/dev/zero of=/swap bs=1024 count=1048576
+    sudo chmod 600 /swap
+    sudo mkswap /swap
+    sudo swapon /swap
     Editar /etc/fstab:
     	# Swap file created on DATE
         /swap       none    swap    sw      0       0
