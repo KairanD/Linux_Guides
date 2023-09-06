@@ -7,7 +7,7 @@
 
 
 # Extra packages:
-  firefox flatpak gwenview kio-gdrive okular spectacle ufw
+  firefox flatpak gwenview kio-fuse kio-gdrive okular spectacle ufw
 
 
 # Enabling services:
@@ -30,6 +30,10 @@
 
 # Printer:
   sudo pacman -S cups gutenprint print-manager skanlite
+
+
+# Disks utility:
+  sudo pacman -S dosfstools gnome-disk-utility
 
 
 # Steam joystick (Remote Play):
