@@ -2,16 +2,24 @@ Pós-instalação (GNOME):
     sudo apt update
     sudo apt upgrade
     sudo apt install gnome-core --no-install-recommends
-    sudo apt install flatpak gnome-software-plugin-flatpak gufw gnome-tweaks libproxy1-plugin-networkmanager low-memory-monitor network-manager-gnome ttf-mscorefonts-installer
-
+    sudo apt install gnome-core flatpak gnome-software-plugin-flatpak gufw gnome-tweaks ttf-mscorefonts-installer
+    sudo apt purge firefox-esr
+    sudo apt autoremove
 
 Desabilitar hotplug (comentar as duas linhas referentes à conexão usada anteriormente):
     sudo nano /etc/network/interfaces
-
-
+    
 Habilitar Flathub:
     flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-
+    
+Habilitar swap:
+    dd if=/dev/zero of=/swap bs=1024 count=1048576
+    chmod 600 /swap
+    mkswap /swap
+    swapon /swap
+    Editar /etc/fstab:
+    	# Swap file created on DATE
+        /swap       none    swap    sw      0       0
 
 Flatpaks:
     Firefox: flatpak install flathub org.mozilla.firefox
@@ -22,7 +30,6 @@ Flatpaks:
     Rhythmbox: flatpak install flathub org.gnome.Rhythmbox3
     System Monitoring Center: flatpak install flathub io.github.hakandundar34coding.system-monitoring-center
     Teams: flatpak install flathub com.github.IsmaelMartinez.teams_for_linux
-
 
 Outros Flatpaks:
     Arduino IDE: flatpak install flathub cc.arduino.arduinoide
@@ -54,20 +61,16 @@ Outros Flatpaks:
     VLC: flatpak install flathub org.videolan.VLC
     Xournal++: flatpak install flathub com.github.xournalpp.xournalpp
 
-
 Driver Nvidia:
     sudo apt install nvidia-driver firmware-misc-nonfree
 
-
 Impressora:
     sudo apt install cups printer-driver-escpr
-
 
 ZRAM (swap):
     sudo apt install zram-tools
     echo -e "ALGO=zstd\nPERCENT=100" | sudo tee -a /etc/default/zramswap
     sudo service zramswap reload
-
 
 Extensões GNOME:
     AppIndicator and KstatusNotifierItemSupport
