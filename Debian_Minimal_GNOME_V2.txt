@@ -1,8 +1,7 @@
 Pós-instalação (GNOME):
     sudo apt update
     sudo apt upgrade
-    sudo apt install gnome-core --no-install-recommends
-    sudo apt install gnome-core flatpak gnome-software-plugin-flatpak gufw gnome-tweaks ttf-mscorefonts-installer
+    sudo apt install flatpak gnome-core gnome-software-plugin-flatpak gnome-tweaks gufw ttf-mscorefonts-installer
     sudo apt purge firefox-esr
     sudo apt autoremove
 
