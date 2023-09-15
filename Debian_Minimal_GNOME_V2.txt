@@ -70,6 +70,10 @@ ZRAM (swap):
     sudo apt install zram-tools
     echo -e "ALGO=zstd\nPERCENT=100" | sudo tee -a /etc/default/zramswap
     sudo service zramswap reload
+    
+Desabilitar turbo boost (Intel):
+    sudo nano /etc/tmpfiles.d/noturbo.conf
+        w    /sys/devices/system/cpu/intel_pstate/no_turbo -    -    -    -   1
 
 Extensões GNOME:
     AppIndicator and KstatusNotifierItemSupport
