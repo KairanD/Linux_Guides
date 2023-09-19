@@ -1,3 +1,6 @@
+Instalação:
+    Não selecionar qualquer pacote de interface na formatação! Apenas utilitários básicos do sistema.
+
 Pós-instalação (GNOME):
     sudo apt update
     sudo apt upgrade
