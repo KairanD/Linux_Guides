@@ -58,6 +58,7 @@ Outros Flatpaks:
     Video Downloader: flatpak install flathub com.github.unrud.VideoDownloader
     Visual Studio Code: flatpak install flathub com.visualstudio.code
     VLC: flatpak install flathub org.videolan.VLC
+    Warp: flatpak install flathub app.drey.Warp
     Xournal++: flatpak install flathub com.github.xournalpp.xournalpp
 
 Driver Nvidia:
