@@ -4,7 +4,7 @@ Instalação:
 Pós-instalação (GNOME):
     sudo apt update
     sudo apt upgrade
-    sudo apt install flatpak gnome-core gnome-software-plugin-flatpak gnome-tweaks gufw ttf-mscorefonts-installer yaru-theme-icon
+    sudo apt install flatpak gnome-core gnome-software-plugin-flatpak gnome-tweaks gufw ttf-mscorefonts-installer
     sudo apt purge firefox-esr
     sudo apt autoremove
 
@@ -34,7 +34,7 @@ Flatpaks:
     Teams: flatpak install flathub com.github.IsmaelMartinez.teams_for_linux
 
 Outros Flatpaks:
-    Arduino IDE: flatpak install flathub cc.arduino.arduinoide
+    Arduino IDE v2: flatpak install flathub cc.arduino.IDE2
     Bottles: flatpak install flathub com.usebottles.bottles
     Boxes: flatpak install flathub org.gnome.Boxes
     Digitalizador de documentos: flatpak install flathub org.gnome.SimpleScan
@@ -59,8 +59,8 @@ Outros Flatpaks:
     TeamSpeak: flatpak install flathub com.teamspeak.TeamSpeak
     Unity Hub: flatpak install flathub com.unity.UnityHub
     Video Downloader: flatpak install flathub com.github.unrud.VideoDownloader
-    Visual Studio Code: flatpak install flathub com.visualstudio.code
     VLC: flatpak install flathub org.videolan.VLC
+    VSCodium: flatpak install flathub com.vscodium.codium
     Warp: flatpak install flathub app.drey.Warp
     Xournal++: flatpak install flathub com.github.xournalpp.xournalpp
 
