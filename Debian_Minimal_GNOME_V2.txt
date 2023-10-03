@@ -14,15 +14,6 @@ Desabilitar hotplug (comentar as duas linhas referentes à conexão usada anteri
 Habilitar Flathub:
     flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
     
-Habilitar swap:
-    sudo dd if=/dev/zero of=/swap bs=1024 count=1048576
-    sudo chmod 600 /swap
-    sudo mkswap /swap
-    sudo swapon /swap
-    Editar /etc/fstab:
-    	# Swap file created on DATE
-        /swap       none    swap    sw      0       0
-
 Flatpaks:
     Firefox: flatpak install flathub org.mozilla.firefox
     Flatseal: flatpak install flathub com.github.tchx84.Flatseal
@@ -69,10 +60,19 @@ Driver Nvidia:
 
 Impressora:
     sudo apt install cups printer-driver-escpr
+    
+Swapfile:
+    sudo dd if=/dev/zero of=/swap bs=1024 count=1048576
+    sudo chmod 600 /swap
+    sudo mkswap /swap
+    sudo swapon /swap
+    Editar /etc/fstab:
+    	# Swap file created on DATE
+        /swap       none    swap    sw      0       0
 
-ZRAM (swap):
+ZRAM:
     sudo apt install zram-tools
-    echo -e "ALGO=zstd\nPERCENT=100" | sudo tee -a /etc/default/zramswap
+    echo -e "ALGO=zstd\nPERCENT=95" | sudo tee -a /etc/default/zramswap
     sudo service zramswap reload
     
 Desabilitar turbo boost (Intel):
@@ -82,3 +82,4 @@ Desabilitar turbo boost (Intel):
 Extensões GNOME:
     AppIndicator and KstatusNotifierItemSupport
     Dash to Dock
+    Light Shell
