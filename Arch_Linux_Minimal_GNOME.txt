@@ -30,6 +30,7 @@
   Boxes: flatpak install flathub org.gnome.Boxes
   Discord: flatpak install flathub com.discordapp.Discord
   Draw.io: flatpak install flathub com.jgraph.drawio.desktop
+  Extension Manager: flatpak install flathub com.mattjakeman.ExtensionManager
   GitHub Desktop: flatpak install flathub io.github.shiftey.Desktop
   Google Earth: flatpak install flathub com.google.EarthPro
   Kdenlive: flatpak install flathub org.kde.kdenlive
