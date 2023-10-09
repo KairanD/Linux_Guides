@@ -1,0 +1,67 @@
+# Install:
+  iwctl
+  device list
+  station <name> connect <name>
+  exit
+  archinstall
+  
+# Extra packages:
+  gufw
+  
+# Enabling services:
+  sudo systemctl enable ufw.service
+  sudo systemctl start ufw.service
+  sudo systemctl enable bluetooth.service
+  sudo systemctl start bluetooth.service
+  
+# Flatpaks (essentials):
+  Firefox: flatpak install flathub org.mozilla.firefox
+  Flatseal: flatpak install flathub com.github.tchx84.Flatseal
+  GIMP: flatpak install flathub org.gimp.GIMP
+  LibreOffice: flatpak install flathub org.libreoffice.LibreOffice
+  PDF Arranger: flatpak install flathub com.github.jeromerobert.pdfarranger
+  Rhythmbox: flatpak install flathub org.gnome.Rhythmbox3
+  System Monitoring Center: flatpak install flathub io.github.hakandundar34coding.system-monitoring-center
+  Teams: flatpak install flathub com.github.IsmaelMartinez.teams_for_linux
+
+# Other Flatpaks:
+  Arduino IDE v2: flatpak install flathub cc.arduino.IDE2
+  Bottles: flatpak install flathub com.usebottles.bottles
+  Boxes: flatpak install flathub org.gnome.Boxes
+  Discord: flatpak install flathub com.discordapp.Discord
+  Draw.io: flatpak install flathub com.jgraph.drawio.desktop
+  GitHub Desktop: flatpak install flathub io.github.shiftey.Desktop
+  Google Earth: flatpak install flathub com.google.EarthPro
+  Kdenlive: flatpak install flathub org.kde.kdenlive
+  LibreCAD: flatpak install flathub org.librecad.librecad
+  LosslessCut: flatpak install flathub no.mifi.losslesscut
+  Minecraft: flatpak install flathub com.mojang.Minecraft
+  Minion: flatpak install flathub gg.minion.Minion
+  Mission Center: flatpak install flathub io.missioncenter.MissionCenter
+  OBS Studio: flatpak install flathub com.obsproject.Studio
+  Pick: flatpak install flathub org.kryogenix.Pick
+  Popsicle: flatpak install flathub com.system76.Popsicle
+  Skype: flatpak install flathub com.skype.Client
+  Solanum: flatpak install flathub org.gnome.Solanum
+  SoundConverter: flatpak install flathub org.soundconverter.SoundConverter
+  Steam: flatpak install flathub com.valvesoftware.Steam
+  TeamSpeak: flatpak install flathub com.teamspeak.TeamSpeak
+  Unity Hub: flatpak install flathub com.unity.UnityHub
+  Video Downloader: flatpak install flathub com.github.unrud.VideoDownloader
+  VLC: flatpak install flathub org.videolan.VLC
+  VSCodium: flatpak install flathub com.vscodium.codium
+  Warp: flatpak install flathub app.drey.Warp
+  Xournal++: flatpak install flathub com.github.xournalpp.xournalpp
+
+# Driver Nvidia:
+  sudo pacman -S nvidia nvidia-lts nvidia-settings
+  
+# Printer:
+  sudo pacman -S cups
+  sudo systemctl enable cups.service
+  sudo systemctl start cups.service
+  localhost:631
+  
+# GNOME Extensions:
+  Dash to Dock
+  Light Shell
