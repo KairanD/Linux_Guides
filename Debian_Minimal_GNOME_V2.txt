@@ -21,7 +21,6 @@ Flatpaks:
     LibreOffice: flatpak install flathub org.libreoffice.LibreOffice
     PDF Arranger: flatpak install flathub com.github.jeromerobert.pdfarranger
     Rhythmbox: flatpak install flathub org.gnome.Rhythmbox3
-    System Monitoring Center: flatpak install flathub io.github.hakandundar34coding.system-monitoring-center
     Teams: flatpak install flathub com.github.IsmaelMartinez.teams_for_linux
 
 Outros Flatpaks:
@@ -47,6 +46,7 @@ Outros Flatpaks:
     Solanum: flatpak install flathub org.gnome.Solanum
     SoundConverter: flatpak install flathub org.soundconverter.SoundConverter
     Steam: flatpak install flathub com.valvesoftware.Steam
+    System Monitoring Center: flatpak install flathub io.github.hakandundar34coding.system-monitoring-center
     TeamSpeak: flatpak install flathub com.teamspeak.TeamSpeak
     Unity Hub: flatpak install flathub com.unity.UnityHub
     Video Downloader: flatpak install flathub com.github.unrud.VideoDownloader
