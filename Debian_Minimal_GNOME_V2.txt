@@ -8,17 +8,18 @@ Pós-instalação (GNOME):
     sudo apt purge firefox-esr
     sudo apt autoremove
 
+Habilitar Flathub:
+    sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+    
 Desabilitar hotplug (comentar as duas linhas referentes à conexão usada anteriormente):
     sudo nano /etc/network/interfaces
-    
-Habilitar Flathub:
-    flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
     
 Flatpaks:
     Firefox: flatpak install flathub org.mozilla.firefox
     Flatseal: flatpak install flathub com.github.tchx84.Flatseal
     GIMP: flatpak install flathub org.gimp.GIMP
     LibreOffice: flatpak install flathub org.libreoffice.LibreOffice
+    Mission Center: flatpak install flathub io.missioncenter.MissionCenter
     PDF Arranger: flatpak install flathub com.github.jeromerobert.pdfarranger
     Rhythmbox: flatpak install flathub org.gnome.Rhythmbox3
     Teams: flatpak install flathub com.github.IsmaelMartinez.teams_for_linux
@@ -38,7 +39,6 @@ Outros Flatpaks:
     LosslessCut: flatpak install flathub no.mifi.losslesscut
     Minecraft: flatpak install flathub com.mojang.Minecraft
     Minion: flatpak install flathub gg.minion.Minion
-    Mission Center: flatpak install flathub io.missioncenter.MissionCenter
     OBS Studio: flatpak install flathub com.obsproject.Studio
     Pick: flatpak install flathub org.kryogenix.Pick
     Popsicle: flatpak install flathub com.system76.Popsicle
@@ -83,3 +83,6 @@ Extensões GNOME:
     AppIndicator and KstatusNotifierItemSupport
     Dash to Dock
     Light Shell
+    
+Steam:
+    Remote Play: UDP 27031, 27036. TCP 27036, 27037
