@@ -14,6 +14,7 @@ Flatpaks:
     Firefox: flatpak install flathub org.mozilla.firefox
     Flatseal: flatpak install flathub com.github.tchx84.Flatseal
     GIMP: flatpak install flathub org.gimp.GIMP
+    KCalc: flatpak install flathub org.kde.kcalc
     LibreOffice: flatpak install flathub org.libreoffice.LibreOffice
     Mission Center: flatpak install flathub io.missioncenter.MissionCenter
     PDF Arranger: flatpak install flathub com.github.jeromerobert.pdfarranger
