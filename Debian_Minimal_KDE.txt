@@ -19,6 +19,7 @@ Flatpaks:
     PDF Arranger: flatpak install flathub com.github.jeromerobert.pdfarranger
     Rhythmbox: flatpak install flathub org.gnome.Rhythmbox3
     Teams: flatpak install flathub com.github.IsmaelMartinez.teams_for_linux
+    VLC: flatpak install flathub org.videolan.VLC
 
 Outros Flatpaks:
     Arduino IDE v2: flatpak install flathub cc.arduino.IDE2
@@ -46,7 +47,6 @@ Outros Flatpaks:
     TeamSpeak: flatpak install flathub com.teamspeak.TeamSpeak
     Unity Hub: flatpak install flathub com.unity.UnityHub
     Video Downloader: flatpak install flathub com.github.unrud.VideoDownloader
-    VLC: flatpak install flathub org.videolan.VLC
     VSCodium: flatpak install flathub com.vscodium.codium
     Warp: flatpak install flathub app.drey.Warp
     Xournal++: flatpak install flathub com.github.xournalpp.xournalpp
@@ -77,3 +77,9 @@ Desabilitar turbo boost (Intel):
         
 Som Intel (caso não esteja funcionando:
     sudo apt install firmware-intel-sound
+    
+Steam:
+    Remote Play: UDP 27031, 27036. TCP 27036, 27037
+    
+Arduino:
+    sudo usermod -a -G dialout <username>
