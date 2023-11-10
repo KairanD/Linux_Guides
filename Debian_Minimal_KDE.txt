@@ -4,7 +4,7 @@ Instalação:
 Pós-instalação (GNOME):
     sudo apt update
     sudo apt upgrade
-    sudo apt install ark kde-plasma-desktop kio-gdrive okular plasma-firewall ttf-mscorefonts-installer
+    sudo apt install ark cryptsetup kde-plasma-desktop kio-gdrive okular plasma-firewall ttf-mscorefonts-installer
     sudo apt autoremove
 
 Desabilitar hotplug (comentar as duas linhas referentes à conexão usada anteriormente):
