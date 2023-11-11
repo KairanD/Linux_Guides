@@ -4,7 +4,7 @@ Instalação:
 Pós-instalação (GNOME):
     sudo apt update
     sudo apt upgrade
-    sudo apt install ark cryptsetup kde-plasma-desktop kio-gdrive okular plasma-firewall ttf-mscorefonts-installer
+    sudo apt install ark cryptsetup kde-plasma-desktop kde-spectacle kio-gdrive okular plasma-firewall ttf-mscorefonts-installer
     sudo apt autoremove
 
 Desabilitar hotplug (comentar as duas linhas referentes à conexão usada anteriormente):
@@ -81,6 +81,10 @@ Som Intel (caso não esteja funcionando:
     
 Steam:
     Remote Play: UDP 27031, 27036. TCP 27036, 27037
+    Joystick: sudo apt install steam-devices --no-install-recommends; Permissão outros arquivos: /dev/uinput:ro
     
 Arduino:
     sudo usermod -a -G dialout <username>
+
+Montagem discos:
+    nosuid,nodev,nofail,x-gvfs-show
