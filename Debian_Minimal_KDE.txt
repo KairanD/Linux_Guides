@@ -4,7 +4,7 @@ Instalação:
 Pós-instalação (GNOME):
     sudo apt update
     sudo apt upgrade
-    sudo apt install ark cryptsetup kde-plasma-desktop kde-spectacle kio-gdrive okular plasma-firewall ttf-mscorefonts-installer
+    sudo apt install ark cryptsetup gwenview kde-plasma-desktop kde-spectacle kio-gdrive okular plasma-firewall ttf-mscorefonts-installer
     sudo apt autoremove
 
 Desabilitar hotplug (comentar as duas linhas referentes à conexão usada anteriormente):
@@ -32,6 +32,7 @@ Outros Flatpaks:
     Extension Manager: flatpak install flathub com.mattjakeman.ExtensionManager
     GitHub Desktop: flatpak install flathub io.github.shiftey.Desktop
     Google Earth: flatpak install flathub com.google.EarthPro
+    KColorChooser: flatpak install flathub org.kde.kcolorchooser
     Kdenlive: flatpak install flathub org.kde.kdenlive
     LibreCAD: flatpak install flathub org.librecad.librecad
     LosslessCut: flatpak install flathub no.mifi.losslesscut
@@ -51,6 +52,11 @@ Outros Flatpaks:
     VSCodium: flatpak install flathub com.vscodium.codium
     Warp: flatpak install flathub app.drey.Warp
     Xournal++: flatpak install flathub com.github.xournalpp.xournalpp
+
+Utilidades (.deb):
+    sudo apt install gddccontrol
+    sudo apt install gnome-disk-utility
+    sudo apt install gparted
 
 Driver Nvidia:
     sudo apt install nvidia-driver firmware-misc-nonfree
@@ -76,7 +82,7 @@ Desabilitar turbo boost (Intel):
     sudo nano /etc/tmpfiles.d/noturbo.conf
         w    /sys/devices/system/cpu/intel_pstate/no_turbo -    -    -    -   1
         
-Som Intel (caso não esteja funcionando:
+Som Intel (caso não esteja funcionando):
     sudo apt install firmware-intel-sound
     
 Steam:
