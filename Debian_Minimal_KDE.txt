@@ -32,6 +32,7 @@ Outros Flatpaks:
     Extension Manager: flatpak install flathub com.mattjakeman.ExtensionManager
     GitHub Desktop: flatpak install flathub io.github.shiftey.Desktop
     Google Earth: flatpak install flathub com.google.EarthPro
+    ISO Image Writer (KDE): flatpak install flathub org.kde.isoimagewriter
     KColorChooser: flatpak install flathub org.kde.kcolorchooser
     Kdenlive: flatpak install flathub org.kde.kdenlive
     LibreCAD: flatpak install flathub org.librecad.librecad
@@ -57,6 +58,7 @@ Utilidades (.deb):
     sudo apt install gddccontrol
     sudo apt install gnome-disk-utility
     sudo apt install gparted
+    sudo apt install psensor
 
 Driver Nvidia:
     sudo apt install nvidia-driver firmware-misc-nonfree
