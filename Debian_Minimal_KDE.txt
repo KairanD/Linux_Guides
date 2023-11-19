@@ -29,7 +29,6 @@ Outros Flatpaks:
     Digitalizador de documentos: flatpak install flathub org.gnome.SimpleScan
     Discord: flatpak install flathub com.discordapp.Discord
     Draw.io: flatpak install flathub com.jgraph.drawio.desktop
-    Extension Manager: flatpak install flathub com.mattjakeman.ExtensionManager
     GitHub Desktop: flatpak install flathub io.github.shiftey.Desktop
     Google Earth: flatpak install flathub com.google.EarthPro
     ISO Image Writer (KDE): flatpak install flathub org.kde.isoimagewriter
