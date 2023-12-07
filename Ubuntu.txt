@@ -1,0 +1,48 @@
+Adicionais:
+    sudo apt install gufw ubuntu-restricted-extras
+
+Aplicativos básicos:
+    GIMP: sudo snap install gimp
+    LibreOffice: sudo apt install libreoffice
+    PDF Arranger: sudo snap install pdfarranger
+    Psensor: sudo apt install psensor
+    Rhythmbox: sudo apt install rhythmbox
+    Teams: sudo snap install teams-for-linux
+    VLC: sudo snap install vlc
+    
+Outros softwares:
+    Arduino IDE: sudo snap install arduino
+    Discord: sudo snap install discord
+    GDDC Control: sudo apt install gddccontrol
+    GNOME Boxes: sudo apt install gnome-boxes
+    Minecraft: sudo snap install mc-installer
+    OBS Studio: sudo snap install obs-studio
+    Simple Scan: sudo snap install simple-scan
+    Sound Converter: sudo apt install soundconverter
+    Steam: sudo dpkg --add-architecture i386; sudo apt install steam-installer
+
+Habilitar Flathub:
+    sudo apt install flatpak
+    sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+    
+Flatpaks:
+    Bottles: flatpak install flathub com.usebottles.bottles
+    GitHub Desktop: flatpak install flathub io.github.shiftey.Desktop
+    Minion: flatpak install flathub gg.minion.Minion
+    Unity Hub: flatpak install flathub com.unity.UnityHub
+    
+Impressora:
+    sudo apt install printer-driver-escpr
+    
+Steam:
+    Remote Play: UDP 27031, 27036. TCP 27036, 27037
+    Joystick: sudo apt install steam-devices
+
+Arduino:
+    sudo usermod -a -G dialout <username>
+
+Montagem discos:
+    nosuid,nodev,nofail,x-gvfs-show
+    
+Som de login:
+    /usr/bin/canberra-gtk-play --id="desktop-login" --description="GNOME Login"
