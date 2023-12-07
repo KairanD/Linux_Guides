@@ -1,5 +1,5 @@
 Adicionais:
-    sudo apt install gufw ubuntu-restricted-extras
+    sudo apt install gnome-tweaks gufw ubuntu-restricted-extras
 
 Aplicativos básicos:
     GIMP: sudo snap install gimp
@@ -19,7 +19,7 @@ Outros softwares:
     OBS Studio: sudo snap install obs-studio
     Simple Scan: sudo snap install simple-scan
     Sound Converter: sudo apt install soundconverter
-    Steam: sudo dpkg --add-architecture i386; sudo apt install steam
+    Steam: sudo apt install steam
 
 Habilitar Flathub:
     sudo apt install flatpak
