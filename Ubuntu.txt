@@ -48,3 +48,6 @@ Som de login:
     
 Minimizar ao clicar:
     Dconf: /org/gnome/shell/extensions/dash-to-dock
+    
+BBSwitch laptop:
+    sudo prime-select intel; sudo apt-get install bumblebee bumblebee-nvidia primus linux-headers-generic
