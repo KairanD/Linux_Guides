@@ -1,5 +1,5 @@
 Adicionais:
-    sudo apt install gnome-tweaks gufw ubuntu-restricted-extras
+    sudo apt install dconf-editor gnome-tweaks gufw ubuntu-restricted-extras
 
 Aplicativos básicos:
     GIMP: sudo snap install gimp
@@ -36,7 +36,6 @@ Impressora:
     
 Steam:
     Remote Play: UDP 27031, 27036. TCP 27036, 27037
-    Joystick: sudo apt install steam-devices
 
 Arduino:
     sudo usermod -a -G dialout <username>
@@ -46,3 +45,6 @@ Montagem discos:
     
 Som de login:
     /usr/bin/canberra-gtk-play --id="desktop-login" --description="GNOME Login"
+    
+Minimizar ao clicar:
+    Dconf: /org/gnome/shell/extensions/dash-to-dock
