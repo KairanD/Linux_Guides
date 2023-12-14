@@ -13,6 +13,7 @@ Aplicativos básicos:
 Outros softwares:
     Arduino IDE: sudo snap install arduino
     Discord: sudo snap install discord
+    Chromium: sudo snap install chromium
     GDDC Control: sudo apt install gddccontrol
     GNOME Boxes: sudo apt install gnome-boxes
     Minecraft: sudo snap install mc-installer
