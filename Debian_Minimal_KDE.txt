@@ -1,10 +1,10 @@
 Instalação:
     Não selecionar qualquer pacote de interface na formatação! Apenas utilitários básicos do sistema.
 
-Pós-instalação (GNOME):
+Pós-instalação:
     sudo apt update
     sudo apt upgrade
-    sudo apt install ark cryptsetup gwenview kde-plasma-desktop kde-spectacle kio-gdrive okular plasma-firewall ttf-mscorefonts-installer
+    sudo apt install ark cryptsetup kde-plasma-desktop kde-spectacle plasma-firewall psensor ttf-mscorefonts-installer
     sudo apt autoremove
 
 Desabilitar hotplug (comentar as duas linhas referentes à conexão usada anteriormente):
@@ -14,9 +14,10 @@ Flatpaks:
     Firefox: flatpak install flathub org.mozilla.firefox
     Flatseal: flatpak install flathub com.github.tchx84.Flatseal
     GIMP: flatpak install flathub org.gimp.GIMP
+    Gwenview: flatpak install flathub org.kde.gwenview
     KCalc: flatpak install flathub org.kde.kcalc
     LibreOffice: flatpak install flathub org.libreoffice.LibreOffice
-    Mission Center: flatpak install flathub io.missioncenter.MissionCenter
+    Okular: flatpak install flathub org.kde.okular
     PDF Arranger: flatpak install flathub com.github.jeromerobert.pdfarranger
     Rhythmbox: flatpak install flathub org.gnome.Rhythmbox3
     Teams: flatpak install flathub com.github.IsmaelMartinez.teams_for_linux
@@ -38,6 +39,7 @@ Outros Flatpaks:
     LosslessCut: flatpak install flathub no.mifi.losslesscut
     Minecraft: flatpak install flathub com.mojang.Minecraft
     Minion: flatpak install flathub gg.minion.Minion
+    Mission Center: flatpak install flathub io.missioncenter.MissionCenter
     OBS Studio: flatpak install flathub com.obsproject.Studio
     Pick: flatpak install flathub org.kryogenix.Pick
     Popsicle: flatpak install flathub com.system76.Popsicle
@@ -57,7 +59,6 @@ Utilidades (.deb):
     sudo apt install gddccontrol
     sudo apt install gnome-disk-utility
     sudo apt install gparted
-    sudo apt install psensor
 
 Driver Nvidia:
     sudo apt install nvidia-driver firmware-misc-nonfree
