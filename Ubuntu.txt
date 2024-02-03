@@ -3,7 +3,7 @@ Adicionais:
 
 Aplicativos básicos:
     GIMP: sudo snap install gimp
-    LibreOffice: sudo apt install libreoffice
+    LibreOffice: sudo snap install libreoffice
     PDF Arranger: sudo snap install pdfarranger
     Psensor: sudo apt install psensor
     Rhythmbox: sudo apt install rhythmbox
